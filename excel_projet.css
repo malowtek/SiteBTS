@@ -1,0 +1,102 @@
+html{
+    background-color: black;
+    size: auto;
+}
+
+
+.titre{
+    font-size: 35px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    color: white;
+    text-align: center;
+    position: relative;
+    display: block;
+
+}
+
+
+
+
+.aftec{
+    top: 250px;
+    font-size: 30px;
+    position: relative;
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+
+
+.menu {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap; 
+}
+.menu li {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+
+
+.menu a {
+    text-decoration: none;
+    color: white; 
+    padding: 10px; 
+    border-radius: 5px;
+    display: block;
+    transition: background-color 0.3s; }
+
+.menu a:hover {
+    background-color: grey; 
+}
+
+
+.contenue {
+    justify-content: center;
+    display: flex;
+    
+}
+
+
+.diapo{
+    height: 700px;
+    width: auto;
+    position: relative;
+    top: 300px;
+}
+.fleche{
+    top: 330px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.fleche1 {
+    height: 40px;
+    width: auto;
+    left: 650px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.fleche2{
+    height: 42px;
+    width: auto;
+    left: 1200px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.excel{
+    text-align: center;
+    position: relative;
+    top: 390px;
+}
